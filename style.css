@@ -1,0 +1,746 @@
+/* HEADER*/
+
+header{
+    display: flex;
+    height: 4em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.4s ease-in-out;
+}
+
+header.scrolled {
+    background-color: white;
+    opacity: 0.98;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 0 1.5em 1em;
+    flex-shrink: 0;
+}
+
+.links {
+    margin-right: 1em;
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.65);
+    margin-right: 1em;
+    font-size: 0.95em;
+    font-weight: 600;
+    transition: color 0.4s ease-in-out;
+}
+
+header nav a:hover {
+    color: rgb(64, 186, 189) ;
+}
+
+header.scrolled nav a{
+    color: rgb(97, 102, 112);
+ 
+}
+
+header.scrolled nav a:hover {
+    color: rgb(64, 186, 189) ;
+}
+
+header nav h1 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 2em;
+    margin-left: 0.50em;
+}
+
+header.scrolled nav h1{
+    color: rgb(64, 186, 189);
+}
+
+header nav h1 span{
+    font-weight: 500;
+}
+
+header div img {
+    height: 2em;
+    margin-top: 0.55em;
+}
+
+header.scrolled div img{
+    margin-bottom: 0.40em;
+    height: 1.80em;
+}
+
+header.scrolled div{
+    height: 1em;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(64, 186, 189);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.landing-page-section{
+    background-image: url(img-bg/hero-2.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -4em;
+}
+
+/* LANDING PAGE SECTION */
+
+.Bootstrap-Lover{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1.80em;
+    margin-top: 3em;
+}
+
+.app-kit{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1.20em;
+    margin-right: 2.20em;
+    margin-bottom: 3em;
+}
+
+.Fint-out-more{
+    background-color: rgb(64, 186, 189);
+    font-family: "Open Sans", sans-serif;
+    height: 3em;
+    width:11em;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    border-radius: 0.50em;
+}
+
+.landing-page-container{
+    display: flex;
+    padding: 3.90em 8em 5em 7.4em;
+}
+
+.landing-page-container div img {
+    height: 28em;
+    margin-top: 5em;
+}
+
+/* WHY USE APPKIT LANDING PAGE SECTION */
+
+.Why-Use-AppKit{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.2em;
+    font-weight: 300;
+    margin: 0;
+    color: rgb(73, 77, 85);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.Appkit-Landing{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(142, 148, 158);
+    font-size: 1.2em;
+    width: 45em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.logo-container img{
+    margin-right: 1em;
+    margin-bottom: 4em;
+}
+
+.Benefit-Lorem-Ipsum{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(64, 186, 189);
+    margin: 0;
+}
+
+.List-one-of-your{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(142, 148, 158);
+    font-size: 0.90em;
+    text-align: center;
+}
+
+.Find-out-more-appkit{
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(64, 186, 189);
+    height: 2.5em;
+    width: 10em;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.Find-out-more-appkit:active{
+    background-color: rgb(13, 110, 253);
+}
+
+.paper-code-phone img{
+    height: 14em;
+}
+
+.paper-code-phone{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+}
+
+.paper-code-phone div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Why-Use-AppKit-landing-page-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 6em 5em 8em;
+}
+
+/* Many Happy Customers section */
+
+.costumer-section{
+    background-color: rgb(64, 186, 189); 
+    background-image: url(img-bg/map.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 13em 17em 10em 17em;
+}
+
+.Many-Happy-Customers{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.2em;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.happy-customer-container{
+    display: flex;
+}
+
+.happy-customer-container img{
+    height: 5em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.profile-description-container{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2em 2em 2em 2em;
+    margin-bottom: 4em;
+    border-radius: 0.50em;
+}
+
+.Testimonial-goes-here{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.95em;
+    margin: 0;
+    margin-bottom: 2em;
+
+}
+
+.profile-name{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.95em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.button-get-it-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1em;
+}
+
+.Get-it-now{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    padding: 13px 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.Get-it-now:active{
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+/* DISCOVER FEATURES SECTION */
+
+.Discover-Features{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.2em;
+    font-weight: 300;
+    margin: 0;
+    color: rgb(73, 77, 85);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.You-can-use-this{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(142, 148, 158);
+    width: 47em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.picture-description-container img {
+    height: 40em;
+    margin-right: 2em;
+}
+
+.link-container a{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: rgb(97, 102, 112);
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.50em;
+}
+
+.link-container a:hover,
+.link-container a:hover i{
+    color: rgb(64, 186, 189);
+}
+
+.link-container i{
+    color: rgb(97, 102, 112);   
+    width: 1em;
+    font-size: 1.10em;
+    margin-right: 0.50em;
+}
+
+.link-container{
+    margin-top: 2em;
+    margin-right: 4em;
+}
+
+.picture-description-container{
+    display: flex;
+}
+
+.discover-features-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+}
+
+/* OUR TEAM */
+
+.Our-Team{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.2em;
+    font-weight: 300;
+    margin: 0;
+    color: rgb(73, 77, 85);
+}
+
+.Introduce-your-team{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.90em;
+    color:rgb(73, 77, 85);
+    width: 820px;
+    text-align: center;
+}
+
+.our-team-container img{
+    height: 8em;
+    border-radius: 20em;
+    margin-bottom: 1em;
+}
+
+.profile-name-our-team{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color:rgb(73, 77, 85) ;
+    margin: 0;
+    margin-bottom: 0.50em;
+}
+
+.Product-Designer{
+    font-family: "Open Sans", sans-serif;
+    color:rgb(73, 77, 85);
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 0.80em;
+}
+
+.our-team-icon-container{
+    display: flex;
+}
+
+
+.our-team-icon-container div{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 1em;
+    color: white;
+    margin-right: 0.80em;
+}
+
+.twitter{
+    background-color: rgb(85, 172, 238);
+}
+
+.facebook{
+    background-color: rgb(59, 89, 152);
+}
+
+.baskesball{
+    background-color: rgb(236, 77, 139);
+}
+
+.database{
+    background-color: black;
+}
+
+.linkin{
+    background-color: rgb(30, 111, 186);
+}
+
+.github{
+    background-color: black;
+}
+
+.globe{
+    background-color:rgb(64, 186, 189);
+}
+
+
+.Sara-is-the-product{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.90em;
+    color:rgb(73, 77, 85);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.our-team-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1em;
+    padding: 2em 1em 2em 1em;
+}
+
+
+.our-team-container a {
+    color: rgb(64, 186, 189);
+}
+
+.our-team-container-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    padding-left: 18em;
+    padding-right: 18em;
+}
+
+
+.Contact-Us-ourteam{
+    padding: 0.80em;
+    width: 150px;
+    background-color: rgb(64, 186, 189);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    margin-top: 3em;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.Contact-Us-ourteam:active{
+    background-color: rgb(13, 110, 253);
+}
+
+.ourteam-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.OUR-TEAM-SECTION{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    padding: 6em;
+}
+
+/* PRICING SECTION */
+
+.Pricing{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.40em;
+    font-weight: 300;
+    margin: 0;
+    color: rgb(73, 77, 85);
+    margin-bottom: 0.30em;
+}
+
+.AppKit-Landing{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.90em;
+    color:rgb(73, 77, 85);
+    width: 820px;
+    text-align: center;
+}
+
+.pricelist-container{
+    background-color: rgb(117, 193, 129);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.pricelist-container1{
+    background-color: rgb(88, 187, 238);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.pricelist-container2{
+    background-color: rgb(248, 161, 63);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;  border-radius: 1em;
+
+}
+
+.FREE{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.20em;
+    margin: 0;
+    margin-bottom: 0.50em;
+}
+
+.Attribution-Required{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.95em;
+}
+
+.price-item{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.50em;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 0.2em;
+}
+
+.item-price{
+    position: relative;
+}
+
+.dollor-icon{
+    position: absolute;
+    left: -16px;
+    top: 17px;
+}
+
+.pricelist-container h4,
+.pricelist-container1 h4,
+.pricelist-container2 h4{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.95em;
+    margin: 0;
+    margin-bottom: 1em;
+   
+}
+
+.pricelist-container h4 i,
+.pricelist-container1 h4 i,
+.pricelist-container2 h4 i{
+    font-size: 0.90em;
+}
+
+.pricelist-container div i,
+.pricelist-container1 div i,
+.pricelist-container2 div i{
+    font-size: 1.40em;
+    color: rgb(206, 212, 218);
+}
+
+.Get-it-now-pricing{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 0.70em 2em;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.Get-it-now-pricing:active{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.pricelist-container a,
+.pricelist-container1 a,
+.pricelist-container2 a {
+    color:rgba(0, 0, 0, 0.4);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.90em;
+    margin-bottom: 1.50em;
+}
+
+.pricelist-container-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.50em;
+    margin-top: 2em;
+}
+
+.pricing-container-section{
+    padding: 6em 14em 6em 14em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER SECTION */
+
+.footer-section{
+    background-color: rgb(73, 77, 85);
+    background-image: url(img-bg/map.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+.Contact-Us{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.40em;
+    font-weight: 300;
+    margin: 0;
+    color: rgb(73, 77, 85);
+    margin-bottom: 0.80em;
+    color: white;
+
+}
+
+
+.Lorem-ipsum-dolor{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 0.90em;
+    margin: 0;
+    width: 42em;
+    text-align: center;
+}
+
+.Get-in-touch{
+    padding: 0.80em;
+    width: 160px;
+    background-color: rgb(64, 186, 189);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.Get-in-touch:active {
+    background-color: rgb(13, 110, 253);
+}
+
+.footer-section div{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.70em;
+    height: 60px;
+    background-color: rgb(38, 40, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125em;
+}
+
+.footer-section div i{
+    color: rgb(234, 83, 149);
+    margin-left: 0.30em;
+    margin-right:0.30em ;
+}
+
+.footer-section div a{
+    color: rgb(64, 186, 189);
+    margin-left: 0.30em;
+    margin-right:0.30em ;
+}
