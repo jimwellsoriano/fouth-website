@@ -381,6 +381,7 @@ header.scrolled div{
     color:rgb(73, 77, 85);
     width: 820px;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .our-team-container img{
